@@ -8,15 +8,16 @@ const translations = {
         navContact: "Contact",
 
         // Hero Section
-        heroSubtitle: "SYSTEM.INITIALIZING_DIGITAL_TRANSFORMATION",
-        heroTitle1: "Engineering Your Vision.",
-        heroTitle2: "Future-Proof Software.",
-        heroCta: "Get in Touch",
+        heroSubtitle: "Your Partner in Digital Innovation",
+        heroTitle1: "Smart Solutions.",
+        heroTitle2: "Lasting Results.",
+        heroCtaExplore: "Explore our digital products",
+        heroCtaContact: "Contact Us",
 
         // Animated Text
-        animatedText1: "Future-Proof Software.",
-        animatedText2: "Intelligent Automation.",
-        animatedText3: "Digital Excellence.",
+        animatedText1: "Lasting Results.",
+        animatedText2: "Simplified Processes.",
+        animatedText3: "Business Growth.",
 
         // Products Section
         productsTitle: "Our Products",
@@ -25,19 +26,22 @@ const translations = {
         fidoDescription: "An intelligent accounting automation software designed to streamline your financial workflows, reduce errors, and provide real-time insights.",
         cyberiaLogTitle: "Cyberia-Log",
         cyberiaLogDescription: "A high-performance journaling and analytics tool for traders. Turn your trade history into a quantifiable edge and master your decision-making process.",
+        visitWebsite: "Visit Website",
 
         // Team Section
         teamTitle: "Meet the Team",
         anasName: "Anas",
+        anasTitle: "Software Engineer",
         nydhalName: "Nydhal",
+        nydhalTitle: "Software Engineer",
 
         // Testimonials Section
         testimonialsTitle: "What Our Clients Say",
-        testimonial1: '"Cyberia Digital Solutions transformed our workflow. Their attention to detail and commitment to quality is unmatched."',
+        testimonial1: "\"Cyberia Digital Solutions transformed our workflow. Their attention to detail and commitment to quality is unmatched.\"",
         testimonial1Author: "- Client A",
-        testimonial2: '"The team at Cyberia is incredibly talented. They delivered a solution that exceeded our expectations on every level."',
+        testimonial2: "\"The team at Cyberia is incredibly talented. They delivered a solution that exceeded our expectations on every level.\"",
         testimonial2Author: "- Client B",
-        testimonial3: '"Working with Cyberia has been a game-changer for our business. Their products are top-notch and their support is excellent."',
+        testimonial3: "\"Working with Cyberia has been a game-changer for our business. Their products are top-notch and their support is excellent.\"",
         testimonial3Author: "- Client C",
 
         // Contact Section
@@ -48,7 +52,7 @@ const translations = {
         contactWhatsapp: "+216 50 377 851",
 
         // Footer
-        footerText: "Cyberia Solutions Digitales. All rights reserved."
+        footerText: "Cyberia Digital Solutions. All rights reserved."
     },
     fr: {
         // Header
@@ -59,15 +63,16 @@ const translations = {
         navContact: "Contact",
 
         // Hero Section
-        heroSubtitle: "SYSTEME.INITIALISATION_TRANSFORMATION_DIGITALE",
-        heroTitle1: "Façonner Votre Vision.",
-        heroTitle2: "Logiciels d'Avenir.",
-        heroCta: "Contactez-nous",
+        heroSubtitle: "Votre Partenaire en Innovation Numérique",
+        heroTitle1: "Solutions Intelligentes.",
+        heroTitle2: "Résultats Durables.",
+        heroCtaExplore: "Découvrez nos produits numériques",
+        heroCtaContact: "Contactez-nous",
 
         // Animated Text
-        animatedText1: "Logiciels d'Avenir.",
-        animatedText2: "Automatisation Intelligente.",
-        animatedText3: "Excellence Numérique.",
+        animatedText1: "Résultats Durables.",
+        animatedText2: "Processus Simplifiés.",
+        animatedText3: "Croissance d'Entreprise.",
 
         // Products Section
         productsTitle: "Nos Produits",
@@ -76,19 +81,22 @@ const translations = {
         fidoDescription: "Un logiciel d'automatisation comptable intelligent conçu pour optimiser vos flux de travail financiers, réduire les erreurs et fournir des informations en temps réel.",
         cyberiaLogTitle: "Cyberia-Log",
         cyberiaLogDescription: "Un outil de journalisation et d'analyse haute performance pour les traders. Transformez votre historique de transactions en un avantage quantifiable et maîtrisez votre processus de prise de décision.",
+        visitWebsite: "Visiter le site web",
 
         // Team Section
         teamTitle: "Rencontrez l'Équipe",
         anasName: "Anas",
+        anasTitle: "Ingénieur logiciel",
         nydhalName: "Nydhal",
+        nydhalTitle: "Ingénieur logiciel",
 
         // Testimonials Section
         testimonialsTitle: "Ce que disent nos clients",
-        testimonial1: '"Cyberia Solutions Digitales a transformé notre flux de travail. Leur souci du détail et leur engagement envers la qualité sont inégalés."',
+        testimonial1: "\"Cyberia Solutions Digitales a transformé notre flux de travail. Leur souci du détail et leur engagement envers la qualité sont inégalés.\"",
         testimonial1Author: "- Client A",
-        testimonial2: '"L\'équipe de Cyberia est incroyablement talentueuse. Ils ont livré une solution qui a dépassé nos attentes à tous les niveaux."',
+        testimonial2: "\"L'équipe de Cyberia est incroyablement talentueuse. Ils ont livré une solution qui a dépassé nos attentes à tous les niveaux.\"",
         testimonial2Author: "- Client B",
-        testimonial3: '"Travailler avec Cyberia a changé la donne pour notre entreprise. Leurs produits sont de premier ordre et leur support est excellent."',
+        testimonial3: "\"Travailler avec Cyberia a changé la donne pour notre entreprise. Leurs produits sont de premier ordre et leur support est excellent.\"",
         testimonial3Author: "- Client C",
 
         // Contact Section
@@ -99,6 +107,6 @@ const translations = {
         contactWhatsapp: "+216 50 377 851",
 
         // Footer
-        footerText: "Cyberia Solutions Digitales. Tous droits réservés."
+        footerText: "Cyberia Digital Solutions. Tous droits réservés."
     }
 };
