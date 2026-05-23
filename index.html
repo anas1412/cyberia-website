@@ -261,10 +261,9 @@
           <a href="#services" class="hover:text-blue-600 transition-colors" data-translate="navServices">Services</a>
           <a href="#insights" class="hover:text-blue-600 transition-colors" data-translate="navInsights">Insights</a>
           <a href="#contact" class="hover:text-blue-600 transition-colors" data-translate="navContact">Contact</a>
-          <button id="lang-toggle-desktop" class="flex items-center gap-1.5 px-3 py-1.5 rounded-md border text-xs font-semibold transition-colors hover:border-blue-300 hover:text-blue-600" style="border-color:var(--rule); color:var(--ink-secondary)">
-            <i class="fa-solid fa-globe text-xs"></i>
-            <span id="current-lang">EN</span>
-          </button>
+            <button id="lang-toggle-desktop" class="flex items-center gap-1.5 px-3 py-1.5 rounded-md border text-xs font-semibold transition-colors hover:border-blue-300 hover:text-blue-600" style="border-color:var(--rule); color:var(--ink-secondary)">
+              <span id="current-lang">EN</span>
+            </button>
         </nav>
 
         <!-- Mobile hamburger -->
@@ -282,9 +281,8 @@
           <a href="#contact" class="py-2.5 hover:text-blue-600 transition-colors" data-translate="navContact">Contact</a>
           <hr class="my-2" style="border-color:var(--rule)" />
           <button id="lang-toggle-mobile" class="flex items-center gap-2 py-2.5 hover:text-blue-600 transition-colors w-fit">
-            <i class="fa-solid fa-globe text-xs"></i>
-            <span id="current-lang-mobile">EN</span>
-          </button>
+              <span id="current-lang-mobile">EN</span>
+            </button>
         </nav>
       </div>
     </header>
@@ -489,49 +487,37 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- Featured (spans 2 cols on md) -->
           <article class="blog-card bg-white rounded-xl overflow-hidden md:col-span-2 flex flex-col" data-scroll>
-            <div class="w-full h-52 flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #eff4ff 0%, #e0e7ff 100%)">
-              <i class="fa-solid fa-chart-line text-5xl" style="color:#c7d7fc"></i>
-              <div class="absolute top-4 left-4">
-                <span class="tag tag-strategy" data-translate="insight1Tag">Strategy</span>
-              </div>
+            <div class="w-full h-72 relative overflow-hidden">
+              <img src="assets/image-1.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="p-7 flex flex-col flex-1">
               <p class="text-xs mb-3" style="color:var(--ink-muted)" data-translate="insight1Date">May 12, 2026</p>
               <h3 class="serif text-2xl leading-snug mb-3" style="color:var(--ink)" data-translate="insight1Title">The Real ROI of AI Automation in 2026</h3>
               <p class="text-sm leading-relaxed flex-1" style="color:var(--ink-secondary)" data-translate="insight1Excerpt"></p>
-              <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold mt-5 transition-colors hover:opacity-70" style="color:var(--blue)" data-translate="readMore">Read article →</a>
             </div>
           </article>
 
           <!-- Side cards -->
           <div class="flex flex-col gap-6">
             <article class="blog-card bg-white rounded-xl overflow-hidden flex flex-col flex-1" data-scroll data-delay="1">
-              <div class="w-full h-28 flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)">
-                <i class="fa-solid fa-brain text-4xl" style="color:#bbf7d0"></i>
-                <div class="absolute top-3 left-3">
-                  <span class="tag tag-engineering" data-translate="insight2Tag">Engineering</span>
-                </div>
+              <div class="w-full h-28 relative overflow-hidden">
+                <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
               </div>
               <div class="p-6 flex flex-col flex-1">
                 <p class="text-xs mb-2" style="color:var(--ink-muted)" data-translate="insight2Date">Apr 28, 2026</p>
                 <h3 class="font-bold text-base leading-snug mb-2" style="color:var(--ink)" data-translate="insight2Title">Building Smarter Workflows with LLMs</h3>
                 <p class="text-xs leading-relaxed flex-1" style="color:var(--ink-secondary)" data-translate="insight2Excerpt"></p>
-                <a href="#" class="inline-flex items-center gap-1 text-xs font-semibold mt-4 transition-colors hover:opacity-70" style="color:var(--blue)" data-translate="readMore">Read article →</a>
               </div>
             </article>
 
             <article class="blog-card bg-white rounded-xl overflow-hidden flex flex-col flex-1" data-scroll data-delay="2">
-              <div class="w-full h-28 flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #eff4ff 0%, #dbeafe 100%)">
-                <i class="fa-solid fa-database text-4xl" style="color:#bfdbfe"></i>
-                <div class="absolute top-3 left-3">
-                  <span class="tag tag-integration" data-translate="insight3Tag">Integration</span>
-                </div>
+              <div class="w-full h-28 relative overflow-hidden">
+                <img src="assets/image-3.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
               </div>
               <div class="p-6 flex flex-col flex-1">
                 <p class="text-xs mb-2" style="color:var(--ink-muted)" data-translate="insight3Date">Apr 14, 2026</p>
                 <h3 class="font-bold text-base leading-snug mb-2" style="color:var(--ink)" data-translate="insight3Title">Integrating AI Without Breaking What Works</h3>
                 <p class="text-xs leading-relaxed flex-1" style="color:var(--ink-secondary)" data-translate="insight3Excerpt"></p>
-                <a href="#" class="inline-flex items-center gap-1 text-xs font-semibold mt-4 transition-colors hover:opacity-70" style="color:var(--blue)" data-translate="readMore">Read article →</a>
               </div>
             </article>
           </div>
@@ -633,13 +619,10 @@
     <footer class="py-10 px-5 border-t" style="border-color:var(--rule)">
       <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-3">
-          <span class="w-7 h-7 rounded-md bg-blue-600 text-white flex items-center justify-center text-xs">
-            <i class="fa-solid fa-bolt"></i>
-          </span>
-          <span class="text-sm font-medium" style="color:var(--ink)">Cyberia AI Studio</span>
-          <span class="text-xs italic" style="color:var(--ink-muted)" data-translate="footerTagline">Intelligence, automated.</span>
+          <span class="serif text-xl" style="color:var(--ink)">Cyberia AI Studio</span>
+          <span class="text-sm" style="color:var(--ink-secondary)" data-translate="footerTagline">Intelligence, automated.</span>
         </div>
-        <p class="text-sm" style="color:var(--ink-muted)" data-translate="footerText">© 2026 Cyberia AI Studio. All rights reserved.</p>
+        <p class="text-sm" style="color:var(--ink-secondary)" data-translate="footerText">© 2026 Cyberia AI Studio. All rights reserved.</p>
       </div>
     </footer>
 
