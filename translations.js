@@ -89,6 +89,7 @@ const translations = {
     contactSubtitle: "Tell us about your biggest operational bottleneck. We'll tell you how we'd solve it — no commitment, no fluff, just a straight conversation.",
     contactEmail: "support@cyberia.tn",
     contactPhone: "+216 50 377 851",
+    contactWhatsApp: "+216 50 377 851",
     contactLocation: "Tunis, Tunisia",
     contactCta: "Send a message",
 
@@ -187,6 +188,7 @@ const translations = {
     contactSubtitle: "Parlez-nous de votre plus gros goulot d'étranglement. On vous dit comment on le résout — sans engagement, sans blabla, juste une conversation franche.",
     contactEmail: "support@cyberia.tn",
     contactPhone: "+216 50 377 851",
+    contactWhatsApp: "+216 50 377 851",
     contactLocation: "Tunis, Tunisie",
     contactCta: "Envoyer un message",
 
