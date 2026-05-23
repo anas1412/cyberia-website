@@ -14,7 +14,7 @@ const translations = {
     heroSubtitle:
     "We build custom automation systems, AI agents, and intelligent workflows that eliminate your operational bottlenecks — so your team can focus on what actually drives revenue.",
     heroCtaServices: "See How It Works",
-    heroCtaContact: "Get a Proposal",
+    heroCtaContact: "Book a Call",
     heroStat1: "Workflows deployed",
     heroStat2: "Hours saved / month",
     heroStat3: "Integration types",
@@ -112,7 +112,7 @@ const translations = {
     heroSubtitle:
     "Nous concevons des systèmes d'automatisation sur mesure, des agents IA et des workflows intelligents qui éliminent vos goulots d'étranglement — pour que votre équipe se concentre sur ce qui génère du chiffre.",
     heroCtaServices: "Voir Comment",
-    heroCtaContact: "Obtenir un Devis",
+    heroCtaContact: "Planifier un appel",
     heroStat1: "Workflows déployés",
     heroStat2: "Heures économisées / mois",
     heroStat3: "Types d'intégrations",
