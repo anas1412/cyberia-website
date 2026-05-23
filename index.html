@@ -633,7 +633,7 @@
       let currentLang = (() => {
         const s = localStorage.getItem('cyberia-lang');
         if (s === 'en' || s === 'fr') return s;
-        return (navigator.language || '').slice(0,2) === 'fr' ? 'fr' : 'en';
+        return (navigator.language || '').slice(0,2) === 'en' ? 'en' : 'fr';
       })();
 
       function applyLanguage(lang) {
