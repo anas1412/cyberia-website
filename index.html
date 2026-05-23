@@ -7,6 +7,49 @@
     <meta name="description" content="Cyberia AI Studio designs and deploys AI workflows, automation systems, and intelligent integrations for modern businesses." />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
+    <!-- Primary meta -->
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://cyberia.tn" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cyberia.tn" />
+    <meta property="og:site_name" content="Cyberia AI Studio" />
+    <meta property="og:title" content="Cyberia AI Studio — Automation & Artificial Intelligence" />
+    <meta property="og:description" content="Cyberia AI Studio designs and deploys AI workflows, automation systems, and intelligent integrations for modern businesses." />
+    <meta property="og:image" content="https://cyberia.tn/assets/preview.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cyberia AI Studio — Automation & Artificial Intelligence" />
+    <meta name="twitter:description" content="Cyberia AI Studio designs and deploys AI workflows, automation systems, and intelligent integrations for modern businesses." />
+    <meta name="twitter:image" content="https://cyberia.tn/assets/preview.png" />
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://cyberia.tn" />
+    <link rel="alternate" hreflang="fr" href="https://cyberia.tn" />
+    <link rel="alternate" hreflang="x-default" href="https://cyberia.tn" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://cyberia.tn",
+      "name": "Cyberia AI Studio",
+      "description": "AI automation studio — workflows, AI agents, and intelligent integrations for modern businesses.",
+      "url": "https://cyberia.tn",
+      "telephone": "+21650377851",
+      "email": "support@cyberia.tn",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TN"
+      }
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -489,7 +532,7 @@
           <!-- Featured (spans 2 cols on md) -->
           <article class="blog-card bg-white rounded-xl overflow-hidden md:col-span-2 flex flex-col" data-scroll>
             <div class="w-full h-72 relative overflow-hidden">
-              <img src="assets/image-1.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
+              <img src="assets/image-01.jpg" alt="" data-translate-alt="insight1Alt" class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="p-7 flex flex-col flex-1">
               <p class="text-xs mb-3" style="color:var(--ink-muted)" data-translate="insight1Date">May 12, 2026</p>
@@ -502,7 +545,7 @@
           <div class="flex flex-col gap-6">
             <article class="blog-card bg-white rounded-xl overflow-hidden flex flex-col flex-1" data-scroll data-delay="1">
               <div class="w-full h-28 relative overflow-hidden">
-                <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
+                <img src="assets/image-02.jpg" alt="" data-translate-alt="insight2Alt" class="w-full h-full object-cover" loading="lazy" />
               </div>
               <div class="p-6 flex flex-col flex-1">
                 <p class="text-xs mb-2" style="color:var(--ink-muted)" data-translate="insight2Date">Apr 28, 2026</p>
@@ -513,7 +556,7 @@
 
             <article class="blog-card bg-white rounded-xl overflow-hidden flex flex-col flex-1" data-scroll data-delay="2">
               <div class="w-full h-28 relative overflow-hidden">
-                <img src="assets/image-3.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
+                <img src="assets/image-03.jpg" alt="" data-translate-alt="insight3Alt" class="w-full h-full object-cover" loading="lazy" />
               </div>
               <div class="p-6 flex flex-col flex-1">
                 <p class="text-xs mb-2" style="color:var(--ink-muted)" data-translate="insight3Date">Apr 14, 2026</p>
@@ -651,11 +694,26 @@
         document.documentElement.lang = lang;
         localStorage.setItem('cyberia-lang', lang);
         document.querySelectorAll('#current-lang, #current-lang-mobile').forEach(el => el.textContent = lang.toUpperCase());
+        // Update dynamic content
         document.querySelectorAll('[data-translate]').forEach(el => {
           const key = el.getAttribute('data-translate');
           const t = translations[lang] && translations[lang][key];
           if (t != null) el.innerHTML = t;
         });
+        // Update image alt text
+        document.querySelectorAll('[data-translate-alt]').forEach(el => {
+          const key = el.getAttribute('data-translate-alt');
+          const t = translations[lang] && translations[lang][key];
+          if (t != null) el.setAttribute('alt', t);
+        });
+        // Update SEO meta
+        const t = translations[lang];
+        document.title = t.seoTitle;
+        document.querySelector('meta[name="description"]').setAttribute('content', t.seoDescription);
+        document.querySelector('meta[property="og:title"]').setAttribute('content', t.seoTitle);
+        document.querySelector('meta[property="og:description"]').setAttribute('content', t.seoDescription);
+        document.querySelector('meta[name="twitter:title"]').setAttribute('content', t.seoTitle);
+        document.querySelector('meta[name="twitter:description"]').setAttribute('content', t.seoDescription);
         // Update insight tag classes based on language
         updateTagClasses();
       }

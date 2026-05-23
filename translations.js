@@ -1,5 +1,9 @@
 const translations = {
   en: {
+    // SEO
+    seoTitle: "Cyberia AI Studio — Automation & Artificial Intelligence",
+    seoDescription: "Cyberia AI Studio designs and deploys AI workflows, automation systems, and intelligent integrations for modern businesses.",
+
     // Header
     navHome: "Home",
     navAbout: "About",
@@ -59,16 +63,19 @@ const translations = {
     "A B2B SaaS company had a 3-week onboarding process — new clients sat through manual demos, read outdated docs, the support team answered the same questions daily, and the account managers wrote standup notes and summaries by hand every single day. They were scaling fast, and the process wasn't. We integrated AI into their workflow — a chatbot trained on their documentation that answers client questions instantly, an automated daily standup summariser, and AI skills that handle repetitive support and setup tasks via MCP. Onboarding dropped from 3 weeks to 4 days. Client questions are answered in seconds, not hours. Documentation stays current automatically. The team stopped copy-pasting and started scaling.",
     insight1Date: "May 12, 2026",
     insight1Tag: "Case Study",
+    insight1Alt: "B2B SaaS team collaborating on workflow automation and AI onboarding",
     insight2Title: "From 500 Support Tickets to Near Zero",
     insight2Excerpt:
     "An e-commerce brand was hiring 3 support agents per month just to keep up. We deployed an AI agent handling 90% of inquiries autonomously. Support costs dropped 70%. The team went back to building product.",
     insight2Date: "Apr 28, 2026",
     insight2Tag: "Case Study",
+    insight2Alt: "E-commerce customer support team using AI automation tools",
     insight3Title: "2 People, 10x Output",
     insight3Excerpt:
     "An accounting firm automated invoice processing, expense reports, and bank reconciliations. They hired 2 junior accountants — and those 2 delivered the output of a 10-person team. Billable hours per client dropped 60%. Mistakes became a rarity.",
     insight3Date: "Apr 14, 2026",
     insight3Tag: "Case Study",
+    insight3Alt: "Accounting professionals reviewing automated financial reports",
     readMore: "Read article →",
 
     // Process
@@ -99,6 +106,10 @@ const translations = {
   },
 
   fr: {
+    // SEO
+    seoTitle: "Cyberia AI Studio — Automatisation & Intelligence Artificielle",
+    seoDescription: "Cyberia AI Studio conçoit et déploie des workflows IA, des systèmes d'automatisation et des intégrations intelligentes pour les entreprises modernes.",
+
     // Header
     navHome: "Accueil",
     navAbout: "À propos",
@@ -158,16 +169,19 @@ const translations = {
       "Une startup B2B avait un processus d'onboarding de 3 semaines — démos manuelles, documentation obsolète, questions répétées chaque jour au support, et comptes-rendus manuscrits pour les daily standups. La croissance accélérait, mais pas le processus. Nous avons intégré de l'IA dans leur workflow : un chatbot entraîné sur leur documentation qui répond aux clients instantanément, un résumé automatique des daily standups, et des compétences IA (AI skills) qui gèrent le support et les configurations via MCP. L'onboarding est passé de 3 semaines à 4 jours. Les clients obtiennent des réponses en secondes. La documentation reste à jour automatiquement. L'équipe a arrêté le copier-coller et a commencé à scaler.",
     insight1Date: "12 Mai 2026",
     insight1Tag: "Étude de Cas",
+    insight1Alt: "Équipe B2B SaaS collaborant sur l'automatisation des workflows IA",
     insight2Title: "500 tickets support... à presque zéro",
     insight2Excerpt:
       "Une marque e-commerce embauchait 3 agents par mois pour suivre la demande. Nous avons déployé un agent IA qui gère 90% des demandes en autonomie. Coût support : -70%. L'équipe a pu se remettre à construire le produit.",
     insight2Date: "28 Avr 2026",
     insight2Tag: "Étude de Cas",
+    insight2Alt: "Équipe e-commerce utilisant des outils d'automatisation IA",
     insight3Title: "2 personnes, rendement x10",
     insight3Excerpt:
       "Un cabinet comptable a automatisé ses factures, notes de frais et rapprochements bancaires. Ils ont embauché 2 comptables juniors — et ces 2 personnes ont produit le travail d'une équipe de 10. Heures facturables par client : -60%. Les erreurs sont devenues rarissimes.",
     insight3Date: "14 Avr 2026",
     insight3Tag: "Étude de Cas",
+    insight3Alt: "Comptables professionnels analysant des rapports financiers automatisés",
     readMore: "Lire l'article →",
 
     // Process
