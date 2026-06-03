@@ -120,7 +120,7 @@ const translations = {
     // Hero
     heroTagline: "Cyberia AI Studio",
     heroEyebrow: "Studio d'Automatisation IA",
-    heroTitle: "Arrêtez de perdre<br/>du temps. Commencez<br/>à passer à l'échelle.",
+    heroTitle: "Arrêtez de perdre du temps<br/>avec des tâches répétitives. Commencez à<br/>passer à l'échelle grâce à l'IA.",
     heroSubtitle:
     "Nous concevons des systèmes d'automatisation sur mesure, des agents IA et des workflows intelligents qui éliminent vos goulots d'étranglement — pour que votre équipe se concentre sur ce qui génère du chiffre.",
     heroCtaServices: "Voir Comment",
