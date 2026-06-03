@@ -27,7 +27,7 @@ const translations = {
     aboutEyebrow: "Why Cyberia",
     aboutTitle: "We turn operational<br/>friction into<br/>competitive speed.",
     aboutText:
-    "Most businesses know automation is the answer — but don't know where to start, whom to trust, or how to avoid the pitfalls. That's where we come in. Cyberia AI Studio partners with growth-stage companies and enterprises to audit, design, and deploy automation that actually delivers measurable ROI. From data pipelines to multi-agent orchestration, we remove the guesswork and replace it with leverage. You keep the vision. We build the engine.",
+    "Most businesses need automation but aren't sure where to start. Cyberia AI Studio helps you automate workflows, save time, cut costs, and scale faster with AI. You focus on growth. We handle the technology.",
     aboutPill1: "LLM Orchestration",
     aboutPill2: "Process Automation",
     aboutPill3: "API Integrations",
@@ -133,7 +133,7 @@ const translations = {
     aboutEyebrow: "Pourquoi Cyberia",
     aboutTitle: "On transforme vos<br/>frictions opérationnelles<br/>en vitesse concurrentielle.",
     aboutText:
-    "La plupart des entreprises savent qu'elles ont besoin d'automatisation — mais ne savent pas par où commencer, ni à qui faire confiance. C'est là qu'on intervient. Cyberia AI Studio accompagne les entreprises en croissance pour auditer, concevoir et déployer des solutions d'automatisation qui génèrent un ROI mesurable. Des pipelines de données aux orchestrateurs multi-agents, on élimine le bruit et on livre un vrai avantage concurrentiel. Vous gardez la vision. On construit le moteur.",
+    "La plupart des entreprises ont besoin d'automatisation mais ne savent pas par où commencer. Cyberia AI Studio vous aide à automatiser vos processus, gagner du temps, réduire les coûts et accélérer votre croissance grâce à l'IA. Vous vous concentrez sur votre activité. Nous gérons la technologie.",
     aboutPill1: "Orchestration LLM",
     aboutPill2: "Automatisation des Processus",
     aboutPill3: "Intégrations API",
