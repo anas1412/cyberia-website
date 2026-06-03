@@ -14,7 +14,7 @@ const translations = {
     // Hero
     heroTagline: "Cyberia AI Studio",
     heroEyebrow: "AI Automation Studio",
-    heroTitle: "Stop wasting time<br/>on busywork. Start<br/>scaling with AI.",
+    heroTitle: "Stop repetitive work. Grow with AI.",
     heroSubtitle:
     "We build custom automation systems, AI agents, and intelligent workflows that eliminate your operational bottlenecks — so your team can focus on what actually drives revenue.",
     heroCtaServices: "See How It Works",
@@ -120,7 +120,7 @@ const translations = {
     // Hero
     heroTagline: "Cyberia AI Studio",
     heroEyebrow: "Studio d'Automatisation IA",
-    heroTitle: "Arrêtez de perdre du temps<br/>avec des tâches répétitives. Commencez à<br/>passer à l'échelle grâce à l'IA.",
+    heroTitle: "Arrêtez les tâches répétitives. Développez-vous avec l’IA",
     heroSubtitle:
     "Nous concevons des systèmes d'automatisation sur mesure, des agents IA et des workflows intelligents qui éliminent vos goulots d'étranglement — pour que votre équipe se concentre sur ce qui génère du chiffre.",
     heroCtaServices: "Voir Comment",
